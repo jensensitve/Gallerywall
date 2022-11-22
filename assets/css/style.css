@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+.gallery-wall {
+    border: 5px solid black;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    background-color: bisque;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    border: 5px solid white;
+    border-bottom: 50px solid white;
+    box-shadow: 2px 2px 0px black;
+    background-size: cover;
+    position: relative;
+    opacity: 0.7;
+}
+
+.img1 {
+    background-image: url("../img/antonio-grosz-QhGRvbAws5M-unsplash.jpg");
+    z-index: 4;
+    bottom: 20%;
+    left: 10%;
+}
+
+.img2 {
+    background-image: url("../img/antonio-grosz-QhGRvbAws5M-unsplash.jpg");
+    z-index: 3;
+    bottom: 10%;
+    left: 30%;
+    transform: rotate(15deg)
+}
+
+.img3 {
+    background-image: url("../img/antonio-grosz-QhGRvbAws5M-unsplash.jpg");
+    z-index: 2;
+    top: 10%;
+    left: 50%;
+    transform: rotate(5deg)
+}
+
+.img4 {
+    background-image: url("../img/antonio-grosz-QhGRvbAws5M-unsplash.jpg");
+    z-index: 1;
+    top: 20%;
+    left: 60%;
+    transform: rotate(-25deg)
+}
