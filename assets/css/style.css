@@ -28,26 +28,59 @@ body {}
 }
 
 .img1 {
-    background-image: url("../img/antonio-grosz-QhGRvbAws5M-unsplash.jpg");
+    background-image: url("../img/federico-beccari-ryC3SVUeRgY-unsplash.jpg");
     z-index: 4;
     bottom: 20%;
     left: 10%;
+    filter: grayscale(100%);
+    transition: 2s ease;
+}
+
+.img1:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+    transform: scale(1.5);
+    transition: 2s ease;
 }
 
 .img2 {
-    background-image: url("../img/antonio-grosz-QhGRvbAws5M-unsplash.jpg");
+    background-image: url("../img/ivan-diaz-dTVYuKG4n-8-unsplash.jpg");
     z-index: 3;
     bottom: 10%;
     left: 30%;
-    transform: rotate(15deg)
+    transform: rotate(15deg);
+    transition: 1s ease;
+}
+
+.img2:hover {
+    background-image: url("../img/ivan-diaz-dTVYuKG4n-8-unsplash.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    z-index: 5;
+    transform: rotate(0deg);
+    transition: 1s ease;
 }
 
 .img3 {
-    background-image: url("../img/antonio-grosz-QhGRvbAws5M-unsplash.jpg");
+    background-image: url("../img/michael-surazhsky-RjgruH2TSA4-unsplash.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
     z-index: 2;
     top: 10%;
     left: 50%;
-    transform: rotate(5deg)
+    transform: rotate(-25deg);
+    transition: 1s ease;
+}
+
+.img3:hover {
+    background-size: 120%;
+    background-position: center;
+    opacity: 1;
+    z-index: 6;
+    transform: rotate(0deg) scale(1.5);
+    transition: 1s ease;
 }
 
 .img4 {
@@ -55,5 +88,13 @@ body {}
     z-index: 1;
     top: 20%;
     left: 60%;
-    transform: rotate(-25deg)
+    transform: rotate(-15deg);
+    transition: 1s ease;
+}
+
+.img4:hover {
+    opacity: 1;
+    z-index: 7;
+    transform: rotate(0deg) scale(1.5);
+    transition: 1s ease;
 }
