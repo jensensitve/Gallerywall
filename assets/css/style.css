@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-body {}
-
 .gallery-wall {
     border: 5px solid black;
     width: 800px;
